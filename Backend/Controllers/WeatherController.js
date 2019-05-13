@@ -5,5 +5,4 @@ module.exports.getWeatherByCityName = (req, res) => {
         res.json(response)
     )
 
-
 };
