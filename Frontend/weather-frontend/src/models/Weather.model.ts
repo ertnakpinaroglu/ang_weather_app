@@ -1,6 +1,12 @@
 export class WeatherModel {
 
     data: {
+        request: [
+            {
+                type: String,
+                query: String
+            }
+        ],
         current_condition: [
             {
                 temp_C: String,
@@ -23,6 +29,7 @@ export class WeatherModel {
                 }]
             }
         ]
+
     }
 
 

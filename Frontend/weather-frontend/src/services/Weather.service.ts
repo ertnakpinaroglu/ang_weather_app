@@ -10,10 +10,8 @@ export class WeatherService {
 
   constructor(private httpClient: HttpClient) { }
 
-  getWeatherByCityName(): Observable<WeatherModel> {
-    return this.httpClient.get<WeatherModel>("http://localhost:8000/getWeather");
-  }
-
-
+  getWeatherByCityName(city): Observable<WeatherModel> {
+    return this.httpClient.get<WeatherModel>("http://localhost:8000/getWeather/" + city);
+  };
 
 }
