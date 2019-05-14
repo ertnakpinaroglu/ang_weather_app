@@ -40,6 +40,7 @@ export class BodyComponent implements OnInit {
   search() {
     let lowerCity = this.editCity(this.currentCity);
     this.getCurrentWeather(lowerCity);
+    // Degsis
   }
 
   editCity(text: String): String {
