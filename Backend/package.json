@@ -2,7 +2,7 @@
     "name": "weather-app",
     "version": "1.0.0",
     "dependencies": {
-        "axios": "^0.18.0",
+        "axios": "^0.21.1",
         "body-parser": "^1.19.0",
         "chai": "^4.2.0",
         "chai-http": "^4.3.0",
